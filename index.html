@@ -14,7 +14,7 @@
             
         </script>   
         <!--form-->
-        <form onclick="event.preventDefault(); check()" name="Form" method="get">
+        <form onclick="event.preventDefault();" name="Form" method="get">
             <label for="NameT">
                 Ваше имя
             </label><br>
@@ -23,7 +23,7 @@
             <input id="Email" type="email"><br>
             <label for="VK">Ваш VK</label><br>
             <input id="VK" type="url"><br><br>
-            <button type="submit">Зарегистроваться</button>
+            <button type="submit" onclick="check()">Зарегистроваться</button>
         </form>
         
         
@@ -64,4 +64,5 @@
         </style>
        </head>
     </body>
+
 </html>

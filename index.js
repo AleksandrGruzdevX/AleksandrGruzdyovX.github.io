@@ -5,9 +5,10 @@ function check(){
     let svk = "https://vk.com"
     let y = x.value;
     if (y == ""){
-        alert("Поле имя не заполнена");
+        alert("Поле имя не заполнено");
     }
     if (vkval.includes(svk) == true){
         return true;
     }else{alert("Не указан VK")}
+
 }
